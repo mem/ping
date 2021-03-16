@@ -2,4 +2,7 @@ module github.com/go-ping/ping
 
 go 1.14
 
-require golang.org/x/net v0.0.0-20200904194848-62affa334b73
+require (
+	github.com/google/uuid v1.2.0
+	golang.org/x/net v0.0.0-20210316092652-d523dce5a7f4
+)
